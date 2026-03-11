@@ -1,0 +1,12 @@
+{
+  "supabase": {
+    "enabled": false,
+    "deployEdgeFunctions": false,
+    "integration": "disabled"
+  },
+  "ignore": [
+    "/supabase/**",
+    "*.toml",
+    "/utils/supabase/**"
+  ]
+}

@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: nurture-her
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npx serve -s dist -l $PORT
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: 20
