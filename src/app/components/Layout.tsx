@@ -2,8 +2,7 @@ import { Heart, BookOpen, Smile, Users, Sparkles, User, LogOut, Home } from 'luc
 import { Link, useLocation, useNavigate } from 'react-router';
 import { useAuth } from '../contexts/AuthContext';
 import { Button } from '../components/ui/button';
-import siteLogo from 'figma:asset/3417faa7ffe484720a74e044251ea8057b0011dc.png';
-
+import siteLogo from '/3417faa7ffe484720a74e044251ea8057b0011dc.png';
 export function Layout({ children }: { children: React.ReactNode }) {
   const location = useLocation();
   const navigate = useNavigate();
