@@ -5,8 +5,8 @@ import { Button } from '../components/ui/button';
 import { motion } from 'motion/react';
 
 // Team images - Using actual founder and team photos
-import founderImage from 'figma:asset/65e16cc05e7faa2cf213be9969ac1a066e684995.png';
-import cofounderImage from 'figma:asset/dc18dae1f1d4dca7b0de304d6fb066a961da5bd6.png';
+const founderImage = "/65e16cc05e7faa2cf213be9969ac1a066e684995.png";
+const cofounderImage = "/dc18dae1f1d4dca7b0de304d6fb066a961da5bd6.png";
 
 export function BulletinBoardPage() {
   return (
