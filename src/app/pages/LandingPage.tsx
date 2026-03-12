@@ -4,10 +4,10 @@ import { Button } from '../components/ui/button';
 import { motion } from 'motion/react';
 
 // Team images - Using actual founder and team photos
-import founderImage from 'figma:asset/65e16cc05e7faa2cf213be9969ac1a066e684995.png';
-import cofounderImage from 'figma:asset/dc18dae1f1d4dca7b0de304d6fb066a961da5bd6.png';
-import teamImage from 'figma:asset/787461b130e4726f2fa23b5078c3de584b1349e1.png';
-import siteLogo from 'figma:asset/3417faa7ffe484720a74e044251ea8057b0011dc.png';
+const founderImage = "/65e16cc05e7faa2cf213be9969ac1a066e684995.png";
+const cofounderImage = "/dc18dae1f1d4dca7b0de304d6fb066a961da5bd6.png";
+const teamImage = "/787461b130e4726f2fa23b5078c3de584b1349e1.png";
+const siteLogo = "/3417faa7ffe484720a74e044251ea8057b0011dc.png";
 
 export function LandingPage() {
   const features = [
