@@ -6,7 +6,8 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "serve": "vite preview --host 0.0.0.0 --port 3000"
   },
   "supabase": {
     "enabled": false,
